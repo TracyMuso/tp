@@ -78,7 +78,10 @@ section {
 
 .navbar-nav .nav-link {
   color: #fff;
-  transition: .3s ease; }
+  transition: .3s ease;
+  font-size: 18px;
+  font-weight: 500;
+}
 
 .navbar-nav:hover li a {
   opacity: 0.5; }
@@ -101,6 +104,7 @@ section {
   margin-bottom: 0;
   overflow: hidden;
   min-height: 100vh; }
+
   @media (max-width: 767px) and (orientation: landscape) {
     .jumbotron {
       min-height: 500px; } }
