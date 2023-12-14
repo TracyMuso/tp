@@ -409,6 +409,10 @@ section {
 /*=============================
 =            TESTI            =
 =============================*/
+#testimonial {
+  display: none;
+}
+
 .testi-img img {
   height: 60px;
   width: 60px !important;
@@ -484,6 +488,15 @@ section {
 /*=================================
 =            PORTFOLIO            =
 =================================*/
+#portfolio {
+  background: #ff00cc;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #333399, #ff00cc);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .filter-button-group {
   margin-bottom: 15px; }
   .filter-button-group a {
@@ -717,6 +730,10 @@ section {
 /*==============================
 =            CLIENT            =
 ==============================*/
+
+#client {
+  display: none;
+}
 .client-slider .owl-nav {
   display: none; }
 
