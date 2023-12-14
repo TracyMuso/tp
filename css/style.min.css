@@ -740,6 +740,12 @@ section {
 .client-slider .client-item {
   padding: 0 40px; }
 
+/* Call to action and footer */
+
+#cta {
+  display: none;
+}
+
 /*=====  End of CLIENT  ======*/
 /*==================================
 =            RESPONSIVE            =
