@@ -1,13 +1,14 @@
+import { Providers } from "@components/providers";
+
 import { poppins } from "@/lib/fonts";
 import { cn } from "@/lib/utils";
-import { Providers } from "@/components/providers";
 import { TailwindIndicator } from "@/components/tailwind-indicator";
 
 import "@/styles/globals.css";
 
 export const metadata = {
-  title: "Next.js + TypeScript Starter",
-  description: "A starter template for Next.js and TypeScript",
+  title: "Tracy Muso",
+  description: "Professional protfolio of Tracy Muso",
 };
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
